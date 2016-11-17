@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		68027EAC1DD66D16001FEAC0 /* jCart.h in Headers */ = {isa = PBXBuildFile; fileRef = 68027EAB1DD66D16001FEAC0 /* jCart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E335361DDE732E008141DA /* jCartCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E335351DDE732E008141DA /* jCartCore.swift */; };
+		68E335391DDE74BF008141DA /* JCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E335381DDE74BF008141DA /* JCart.swift */; };
+		68E3353B1DDE74E0008141DA /* JProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3353A1DDE74E0008141DA /* JProduct.swift */; };
+		68E3353F1DDE7522008141DA /* JMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3353E1DDE7522008141DA /* JMenu.swift */; };
+		68E335411DDE753B008141DA /* JCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E335401DDE753B008141DA /* JCombo.swift */; };
+		68E335431DDE7550008141DA /* JSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E335421DDE7550008141DA /* JSection.swift */; };
+		68E335451DDE75B5008141DA /* JOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E335441DDE75B5008141DA /* JOrder.swift */; };
+		68E335471DDE7609008141DA /* JCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E335461DDE7609008141DA /* JCustomer.swift */; };
+		68E335491DDE7668008141DA /* JCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E335481DDE7668008141DA /* JCategory.swift */; };
+		68E3354B1DDE76CA008141DA /* JChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3354A1DDE76CA008141DA /* JChoice.swift */; };
+		68E3354D1DDE76F8008141DA /* JOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3354C1DDE76F8008141DA /* JOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		68027EA81DD66D16001FEAC0 /* jCart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jCart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68027EAB1DD66D16001FEAC0 /* jCart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jCart.h; sourceTree = "<group>"; };
 		68027EAD1DD66D16001FEAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E335351DDE732E008141DA /* jCartCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jCartCore.swift; sourceTree = "<group>"; };
+		68E335381DDE74BF008141DA /* JCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCart.swift; sourceTree = "<group>"; };
+		68E3353A1DDE74E0008141DA /* JProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JProduct.swift; sourceTree = "<group>"; };
+		68E3353E1DDE7522008141DA /* JMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMenu.swift; sourceTree = "<group>"; };
+		68E335401DDE753B008141DA /* JCombo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCombo.swift; sourceTree = "<group>"; };
+		68E335421DDE7550008141DA /* JSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSection.swift; sourceTree = "<group>"; };
+		68E335441DDE75B5008141DA /* JOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JOrder.swift; sourceTree = "<group>"; };
+		68E335461DDE7609008141DA /* JCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCustomer.swift; sourceTree = "<group>"; };
+		68E335481DDE7668008141DA /* JCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCategory.swift; sourceTree = "<group>"; };
+		68E3354A1DDE76CA008141DA /* JChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JChoice.swift; sourceTree = "<group>"; };
+		68E3354C1DDE76F8008141DA /* JOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +68,29 @@
 		68027EAA1DD66D16001FEAC0 /* jCart */ = {
 			isa = PBXGroup;
 			children = (
-				68027EAB1DD66D16001FEAC0 /* jCart.h */,
+				68E335371DDE74A8008141DA /* Core */,
 				68027EAD1DD66D16001FEAC0 /* Info.plist */,
 			);
 			path = jCart;
+			sourceTree = "<group>";
+		};
+		68E335371DDE74A8008141DA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				68027EAB1DD66D16001FEAC0 /* jCart.h */,
+				68E335351DDE732E008141DA /* jCartCore.swift */,
+				68E335381DDE74BF008141DA /* JCart.swift */,
+				68E3353A1DDE74E0008141DA /* JProduct.swift */,
+				68E3353E1DDE7522008141DA /* JMenu.swift */,
+				68E335401DDE753B008141DA /* JCombo.swift */,
+				68E335421DDE7550008141DA /* JSection.swift */,
+				68E335441DDE75B5008141DA /* JOrder.swift */,
+				68E335461DDE7609008141DA /* JCustomer.swift */,
+				68E335481DDE7668008141DA /* JCategory.swift */,
+				68E3354A1DDE76CA008141DA /* JChoice.swift */,
+				68E3354C1DDE76F8008141DA /* JOption.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +171,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E3353B1DDE74E0008141DA /* JProduct.swift in Sources */,
+				68E335411DDE753B008141DA /* JCombo.swift in Sources */,
+				68E335491DDE7668008141DA /* JCategory.swift in Sources */,
+				68E3353F1DDE7522008141DA /* JMenu.swift in Sources */,
+				68E335391DDE74BF008141DA /* JCart.swift in Sources */,
+				68E3354B1DDE76CA008141DA /* JChoice.swift in Sources */,
+				68E335431DDE7550008141DA /* JSection.swift in Sources */,
+				68E3354D1DDE76F8008141DA /* JOption.swift in Sources */,
+				68E335361DDE732E008141DA /* jCartCore.swift in Sources */,
+				68E335471DDE7609008141DA /* JCustomer.swift in Sources */,
+				68E335451DDE75B5008141DA /* JOrder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +282,7 @@
 		68027EB11DD66D16001FEAC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -240,12 +293,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.maxey.cart.jCart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		68027EB21DD66D16001FEAC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -278,6 +333,7 @@
 				68027EB21DD66D16001FEAC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
