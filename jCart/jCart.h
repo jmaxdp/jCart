@@ -2,7 +2,6 @@
 //  jCart.h
 //  jCart
 //
-//  Created by CRS on 11/11/16.
 //  Copyright © 2016 Jerry Maxey. All rights reserved.
 //
 
