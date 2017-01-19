@@ -2,7 +2,6 @@
 //  jCartCore.swift
 //  jCart
 //
-//  Created by Jerry Maxey on 11/11/16.
 //  Copyright © 2016 Jerry Maxey. All rights reserved.
 //
 
